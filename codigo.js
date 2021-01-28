@@ -36,7 +36,7 @@ $(function() {
     var response = grecaptcha.getResponse();
   
     if(response.length === 0){
-      alert("Captcha no verificado")
+      alert("¡¡CAPTCHA NO VERIFICADO!!")
       $('#boton').attr("disabled", true);
       $('#invalidCheck').prop('checked',false);
     } else {
@@ -92,6 +92,7 @@ $(document).ready(function() {
             span.text(confirmacion).removeClass("negacion").addClass('confirmacion');
       
             XD = 0;
+            alert("¡¡CONTRASEÑAS CORRECTAS!!")
             $('#invalidCheck').prop('checked',false);
           
             //}
