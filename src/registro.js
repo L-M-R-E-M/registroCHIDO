@@ -1,5 +1,5 @@
 $('form').on('submit', function(e){
-e.preventDefault();
+//e.preventDefault();
 e.stopImmediatePropagation();
 
 $.ajax({
