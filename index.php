@@ -95,7 +95,7 @@
                     </div>
                   </div>
                 
-                  <div class="g-recaptcha" data-sitekey="6LcHIUAaAAAAAGSa4nJvDL7dVix1mtH2nnc7o2Xx"></div> 
+                  <div class="g-recaptcha" data-sitekey="6LceszwaAAAAAG1_-UmFvef7RQB2YCZUQ2QxQtAX"></div> 
                   
                   <div class="form-group">
                     <div class="form-check">
