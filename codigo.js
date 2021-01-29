@@ -11,6 +11,11 @@
           event.preventDefault();
           event.stopPropagation();
           //alert("Complete todos los apartados");
+        }else{
+
+          e.preventDefault();
+          e.stopImmediatePropagation();
+          
           $.ajax({
             url: "http://35.167.62.109/storeutags/security/create_account",
             type: 'POST',
@@ -39,10 +44,7 @@
                 }
             },       
         });
-          ////
         }
-
-          
       form.classList.add('was-validated');
 
       }, false);
